@@ -1,0 +1,45 @@
+/* Global Styles */
+#header-nav
+{
+    background-color: #ebd7a7;
+}
+
+.navbar-header > .navbar-brand
+{
+    color: black;
+}
+
+#nav-list
+{
+    visibility: hidden;
+}
+
+#main-content
+{
+    background-color: #ebd7a7;
+    width: 97%;
+    margin: 10px auto;
+}
+
+    
+.speach-title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media (max-width: 767px)
+{ /* Smart-phones and below. */
+    #nav-list > li
+    {
+        visibility: visible;
+        border: 1px solid black;
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav
+    {
+        text-align: center;
+        background-color: #bfae84;
+    }
+}

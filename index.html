@@ -1,37 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-  	<link rel="stylesheet" type="text/css" href="Style.css">
-    <title>My Module 2 Solution</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     </head>
-<!-- -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food LLC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
-  <h1>Our Menu</h1>
-  <div class="content">
-    <div id="one">
-      <h3>Chicken</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. </p>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="navbar-header">
+                <span class="navbar-brand">Food LLC</span>
+                <button type="button"
+                    class="navbar-toggle collapsed visible-xs"
+                    data-toggle="collapse" data-target="#collapsable-nav"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="collapsable-nav"
+                class="collapse navbar-collapse"> 
+                <ul id="nav-list"
+                    class="nav navbar-nav navbar-right">
+                    <li>Chicken</li>
+                    <li>Beef</li>
+                    <li>Sushi</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1 class="text-center" style="background-color: #d6c79c">Our Menu</h1>
+    <div id="main-content" class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <span class="speach-title">
+                    Just some speach 
+                </span>
+                <p>
+                ....However matters may go in France or with the French Government or with another French Government, we in this island and in the British Empire will never lose our sense of comradeship with the French people. If we are now called upon to endure what they have suffered we shall emulate their courage, and if final victory rewards our toils they shall share the gains, aye. And freedom shall be restored to all. We abate nothing of our just demands—Czechs, Poles, Norwegians, Dutch, Belgians, all who have joined their causes to our own shall be restored.
+                </p>
+                <p>
+    What General Weygand has called the Battle of France is over ... the Battle of Britain is about to begin. Upon this battle depends the survival of Christian civilisation. Upon it depends our own British life, and the long continuity of our institutions and our Empire. The whole fury and might of the enemy must very soon be turned on us. Hitler knows that he will have to break us in this island or lose the war. If we can stand up to him, all Europe may be freed and the life of the world may move forward into broad, sunlit uplands.
+                </p>
+                <p>
+    But if we fail, then the whole world, including the United States, including all that we have known and cared for, will sink into the abyss of a new dark age made more sinister, and perhaps more protracted, by the lights of perverted science. Let us therefore brace ourselves to our duties, and so bear ourselves, that if the British Empire and its Commonwealth last for a thousand years, men will still say, This was their finest hour.
+                </p>
+                <br />
+                <span class="speach-title">
+                    Some other speach 
+                </span>
+                <p>
+            I wish to speak about the tragedy of Europe, this noble continent, the home of all the great parent races of the Western world, the foundation of Christian faith and ethics, the origin of most of the culture, arts, philosophy and science both of ancient and modern times. If Europe were once united in the sharing of its common inheritance there would be no limit to the happiness, prosperity and glory which its 300 million or 400 million people would enjoy. Yet it is from Europe that has sprung that series of frightful nationalistic quarrels, originated by the Teutonic nations in their rise to power, which we have seen in this 20th century and in our own lifetime wreck the peace and mar the prospects of all mankind.
+                </p>
+                <p>
+            What is this plight to which Europe has been reduced? Some of the smaller states have indeed made a good recovery, but over wide areas are a vast, quivering mass of tormented, hungry, careworn and bewildered human beings, who wait in the ruins of their cities and homes and scan the dark horizons for the approach of some new form of tyranny or terror. Among the victors there is a Babel of voices, among the vanquished the sullen silence of despair. That is all that Europeans, grouped in so many ancient states and nations, and that is all that the Germanic races have got by tearing each other to pieces and spreading havoc far and wide. Indeed, but for the fact that the great republic across the Atlantic realised that the ruin or enslavement of Europe would involve her own fate as well, and stretched out hands of succour and guidance, the Dark Ages would have returned in all their cruelty and squalor. They may still return.
+                </p>
+            </div>
+        </div>
     </div>
-
-    <div id="two">
-      <h3>Beef</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. </p>
-    </div>
-
-    <div id="three">
-      <h3>Sushi</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. </p>
-    </div>
-  </div>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
